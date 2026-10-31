@@ -2,6 +2,8 @@
 
 This project derives the Navier-Stokes equations from first principles (Newton's Second Law -> RTT -> Cauchy -> Navier-Stokes) and solves them using the Chorin Projection Method and a Gauss-Seidel Poisson solver.
 
+I put the dimensional-form simulation at all_dimensional.ipynb, the dimensionless-form simulation and drag coefficient calculation at all_dimensionless.ipynb. I test the solver by mapping velocity and vorticity at higher Re at ball_dimensionless.ipynb, then analyze its global stability and map CFL condition at Re-C.ipynb.   
+
 The full 16-page derivation, analysis, and results are available on Zenodo: https://doi.org/10.5281/zenodo.23762575
 
 This project was built as an independent study bridging geophysics and physical oceanography. Any feedback is highly appreciated!
